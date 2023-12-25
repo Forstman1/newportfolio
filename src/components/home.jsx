@@ -3,6 +3,7 @@ import Contact from "./contact";
 import Hero from "./hero";
 import Projects from "./projects";
 import Tools from "./tools";
+import Footer from "./ui/footer";
 import Navbar from "./ui/navbar";
 
 
@@ -19,6 +20,7 @@ export default function Home() {
                 <Projects />
                 <Tools />
                 <Contact />
+                <Footer />
             </div>
         </div>
     )
