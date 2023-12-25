@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* :root {
+ 
+  width: 100vh;
+  height: 100vh;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+} */
+
+
+body {
+  /* font-family: 'Inter', sans-serif; */
+  /* font-weight: 400; */
+  /* font-size: 1rem; */
+  /* line-height: 1.5; */
+  background-color: #0F0F0F;
+
+}
