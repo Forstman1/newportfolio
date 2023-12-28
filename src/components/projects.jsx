@@ -1,7 +1,7 @@
 import { Icons } from "./icons";
-import { Image } from '@chakra-ui/react'
 import '../App.css'
 import Card from "./ui/Card";
+import { projects } from "../data/data";
 
 
 export default function Projects() {
@@ -15,11 +15,12 @@ export default function Projects() {
 
             <div className="flex justify-center gap-8 mt-[50px] flex-wrap">
 
-                <Card />
-                <Card />
-                <Card />
-                <Card />
-                
+                {projects.map((project, index) => (
+                    <Card key={index} title={project.title} description={project.description} image={project.image} link={project.link} />
+                ))
+                }
+
+
 
             </div>
         </div>

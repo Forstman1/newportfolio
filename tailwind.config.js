@@ -11,8 +11,6 @@ export default {
         'secondary': '#0F0F0F',
         'tertiary': '#772AF4',
         'quaternary': '#1A1A1A',
-
-        
       },
     },
   },
