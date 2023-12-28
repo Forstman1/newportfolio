@@ -8,7 +8,8 @@ import '../App.css'
 export default function About() {
     return (
         <motion.div
-            initial={{ y: -100 }}
+            id="about" 
+            // initial={{ y: -100 }}
             animate={{ y: 0 }}
             transition={{ duration: 0.7 }}
             className='w-full'

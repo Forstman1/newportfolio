@@ -4,7 +4,7 @@ import { Icons } from './icons'
 
 export default function Contact() {
     return (
-        <div className="w-[550px]  flex flex-col justify-between gap-2 p-[50px] px-0  items-center h-full">
+        <div id='contact' className="w-[550px]  flex flex-col justify-between gap-2 p-[50px] px-0  items-center h-full">
             {/* <p>CONTACT</p>
             <p>Get In Touch</p> */}
             <Icons.tools className='w-[48px] h-[48px] ' />

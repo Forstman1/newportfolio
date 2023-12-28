@@ -15,10 +15,10 @@ export default function Home() {
     return (
         <div className="w-full  flex flex-col items-center h-full">
             <div className="w-full max-w-[1200px] flex flex-col items-center">
-                <Navbar />
-                <Hero />
+                <Navbar  />
+                <Hero  />
                 <About />
-                <Projects />
+                <Projects id="projects" />
                 <Tools />
                 <Contact />
                 <Footer />

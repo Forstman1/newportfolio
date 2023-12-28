@@ -8,12 +8,12 @@ export default function Hero() {
 
     return (
         <motion.div
-      initial={{ y: -100 }}  
-      animate={{ y: 0 }}    
+    //   initial={{ y: -100 }}  
+    //   animate={{ y: 0 }}    
       transition={{ duration: 0.7 }}  
       className='w-full'
     >
-        <div className="w-full  flex justify-evenly p-[50px] px-0  items-center h-full">
+        <div id="home" className="w-full  flex justify-evenly p-[50px] px-0  items-center h-full">
 
             <div className='w-[368px] h-[352px] flex flex-col justify-around items-center  bg-quaternary rounded-[24px] cursor-pointer'>
                 <div className='w-[80%] flex justify-between items-center pt-3'>
