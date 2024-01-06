@@ -1,13 +1,24 @@
 import { Icons } from "../icons";
 import { Image } from '@chakra-ui/react'
-
+import {
+    Modal,
+    ModalOverlay,
+    ModalContent,
+    ModalHeader,
+    ModalFooter,
+    ModalBody,
+    ModalCloseButton,
+    Button
+} from '@chakra-ui/react'
+import { useDisclosure } from '@chakra-ui/react';
 
 
 export default function Card({ title, description, image, link }) {
+    const { isOpen, onOpen, onClose } = useDisclosure()
 
 
     return (
-        <div className="w-[560px] h-[502px] flex-col items-center justify-around bg-[#1A1A1A] hover:bg-[#292929] rounded-[24px]  group/card duration-500 cursor-pointer">
+        <div onClick={onOpen} className="w-[560px] h-[502px] flex-col items-center justify-around bg-[#1A1A1A] hover:bg-[#292929] rounded-[24px]  group/card duration-500 cursor-pointer">
             <div className="flex-col flex items-center justify-around p-2 w-full h-full ">
 
                 <div className="flex justify-between items-center w-[90%]">
@@ -26,6 +37,27 @@ export default function Card({ title, description, image, link }) {
                     <Image src={image} alt="Segun Adebayo" className="w-full h-full rounded-lg" />
                 </div>
             </div>
+
+
+            <Modal isOpen={isOpen} onClose={onClose} isCentered size={'xl'} >
+                <ModalOverlay />
+                <ModalContent className="bg-slate-500 w-full">
+                    <ModalHeader isCentered>{title}</ModalHeader>
+                    <ModalCloseButton />
+                    <ModalBody className="">
+                        <Image src={image} alt="Segun Adebayo" className="w-full h-full rounded-lg" />
+                        <p className="text-[14px] text-[#858585] ">{description}</p>
+
+                    </ModalBody>
+
+                    <ModalFooter>
+                        <Button colorScheme='blue' mr={3} onClick={onClose}>
+                            Close
+                        </Button>
+                        <Button variant='ghost'>Secondary Action</Button>
+                    </ModalFooter>
+                </ModalContent>
+            </Modal>
         </div>
     )
 }

@@ -4,7 +4,9 @@ import Card from "./ui/Card";
 import { projects } from "../data/data";
 
 
+
 export default function Projects() {
+
 
     return (
 
@@ -16,11 +18,10 @@ export default function Projects() {
             <div className="flex justify-center gap-8 mt-[50px] flex-wrap">
 
                 {projects.map((project, index) => (
-                    <Card key={index} title={project.title} description={project.description} image={project.image} link={project.link} />
+                    <Card  key={index} title={project.title} description={project.description} image={project.image} link={project.link} />
                 ))
+
                 }
-
-
 
             </div>
         </div>
