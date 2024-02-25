@@ -45,8 +45,8 @@ export default function Hero() {
           </div>
 
           <div className="w-full flex gap-2 justify-between ">
-            {info.socials.map((item) => (
-              <a href={item.link} className="w-full">
+            {info.socials.map((item, index) => (
+              <a href={item.link} key={index} className="w-full">
                 <div className="lg:w-[80px] h-[80px]  w-full  bg-quaternary opacity-100 border-solid border-[2px]    border-[#292929]   border-t-1 border-b-0 border-l-0 border-r-0 hover:bg-[#0077b5] rounded-[24px] flex items-center justify-center cursor-pointer  text-[#858585]  hover:text-white duration-500 ">
                   <item.icon className="w-[32px] h-[32px]" />
                 </div>

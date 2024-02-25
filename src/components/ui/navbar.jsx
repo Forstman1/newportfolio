@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { Icons } from "../icons";
 
 export default function Navbar() {
   const [selected, setSelected] = useState("home");
@@ -53,6 +54,7 @@ export default function Navbar() {
           <div className="w-[14px] h-[2px] bg-[#848484] mt-1"></div>
         </div>
       </div>
+
       {showHamburger && (
         <div className="lg:hidden absolute top-[60px] left-0 w-full h-screen bg-secondary flex flex-col items-center gap-4 p-4">
           {sections.map((section, index) => (
