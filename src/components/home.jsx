@@ -6,6 +6,7 @@ import Projects from "./projects";
 import Tools from "./tools";
 import Footer from "./ui/footer";
 import Navbar from "./ui/navbar";
+import Experience from "./experience";
 
 
 
@@ -19,6 +20,7 @@ export default function Home() {
                 <Hero  />
                 <About />
                 <Projects id="projects" />
+                <Experience />
                 <Tools />
                 <Contact />
                 <Footer />

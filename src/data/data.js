@@ -123,3 +123,39 @@ export const info = {
     },
   ],
 };
+
+export const educationInfo = [
+  {
+    title: "1337",
+    date: "2021 - 2024",
+    description:
+      "I am a student at 1337, a coding school that is part of 42 network that offers a unique and innovative approach to learning. I am currently working on a variety of projects and honing my skills in a range of programming languages and technologies.",
+  },
+  {
+    title: "University Hassan 2",
+    date: "2019 - 2021",
+    description: "I studied Economie  at University Hassan 2 in Morocco for 2 years. I learned a lot about economics and finance, and I developed a strong foundation in these subjects",
+  },
+  {
+    title: "High School",
+    date: "2016 - 2019",
+    description:
+      "I completed my high school education at a local high school in Morocco. I studied a range of subjects and developed a strong foundation in mathematics and science.",
+  },
+];
+
+export const workInfo = [
+  {
+    title: "Mobile Developer Intern",
+    company: "Agenz",
+    date: "2024 - Present",
+    description:
+      "I am currently working as an intern mobile developer at Agenz, a leading software development company. I am responsible for developing and maintaining mobile applications using react native and other technologies.",
+  },
+  {
+    title: "Freelance Work",
+    date: "2023 - 2024",
+    description:
+      "I have worked as a freelance developer on a variety of projects. I have experience working with clients to develop custom solutions and deliver high-quality code.",
+  },
+];

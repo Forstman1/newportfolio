@@ -25,11 +25,9 @@ export default function Contact() {
       )
       .then((response) => {
         console.log("Email sent:", response);
-        // alert("Message sent successfully!");
       })
       .catch((error) => {
         console.error("Error sending email:", error);
-        // alert("Failed to send message.");
       });
   };
   return (

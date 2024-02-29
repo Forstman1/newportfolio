@@ -13,13 +13,13 @@ export default function Navbar() {
   }
 
   return (
-    <div className="sticky top-0 z-40  flex items-center p-5  bg-secondary self-stretch bg-background justify-around  lg:justify-between">
-      <div className="font-bold text-[20px] flex items-center gap-4">
+    <div className="sticky top-0 z-40  flex items-center p-5  bg-secondary  self-stretch bg-background justify-around  lg:justify-between">
+      <div className="font-bold text-[20px] flex items-center gap-4 ">
         <div className="flex">
           <div className="text-tertiary">.</div>
           <div className="text-white">Sami</div>
         </div>
-        <div className="w-[68px] h-[24px] bg-quaternary opacity-100 border-solid border-[2px]    border-[#292929]   border-t-1 border-b-0 border-l-0 border-r-0 rounded-lg text-[#848484] text-[12px] flex items-center justify-center">
+        <div className="w-[68px] h-[24px] bg-quaternary  border-solid border-[2px]    border-[#292929]   border-t-1 border-b-0 border-l-0 border-r-0 rounded-lg text-[#848484] text-[12px] flex items-center justify-center">
           Portfolio
         </div>
       </div>
@@ -33,7 +33,7 @@ export default function Navbar() {
               scrollToSection(e);
               setSelected(section);
             }}
-            className={`cursor-pointer bg-quaternary opacity-100 border-solid border-[2px]  border-[#292929]   border-t-1 border-b-0 border-l-0 border-r-0 rounded-[24px] flex items-center justify-center p-1 px-3  text-[14px] font-medium  ${
+            className={`cursor-pointer bg-quaternary  border-solid border-[2px]  border-[#292929]   border-t-1 border-b-0 border-l-0 border-r-0 rounded-[24px] flex items-center justify-center p-1 px-3  text-[14px] font-medium  ${
               selected === section
                 ? "text-white"
                 : "text-[#848484] hover:text-white"
