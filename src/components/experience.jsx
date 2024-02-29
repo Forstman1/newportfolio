@@ -50,7 +50,7 @@ export default function Experience() {
           educationInfo.map((education, index) => (
             <div
               key={index}
-              className="p-4  px-10 w-[400px] bg-quaternary flex  gap-4 items-start justify-start  rounded-2xl"
+              className="p-4  px-10 w-[90%] md:w-[400px] bg-quaternary flex  gap-4 items-start justify-start  rounded-2xl"
             >
               <div className="h-full">
                 <Icons.education className="w-[48px] h-[48px] text-[#525252] " />
@@ -68,7 +68,7 @@ export default function Experience() {
           workInfo.map((work, index) => (
             <div
               key={index}
-              className="p-4 px-10 w-[400px] bg-quaternary flex  gap-5 items-start justify-start  rounded-2xl"
+              className="p-4 px-10 w-[90%] md:w-[400px] bg-quaternary flex  gap-5 items-start justify-start  rounded-2xl"
             >
               <div className="h-full">
                 <Icons.work className="w-[48px] h-[48px] text-[#525252] " />
