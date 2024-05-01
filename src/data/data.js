@@ -101,7 +101,7 @@ export const info = {
   title: "Mobile Developer",
   name: "Sami Hafid",
   description:
-    "I am a full-stack developer with a passion for creating innovative solutions. I am proficient in a variety of programming languages and have experience working with a range of frameworks and libraries. I am a quick learner and a team player, and I am always looking for opportunities to expand my skill set and take on new challenges. I am currently seeking a position as a full-stack developer where I can contribute to a dynamic team and make a meaningful impact.",
+    "I am a mobile developer with a passion for creating innovative solutions. I am proficient in a variety of programming languages and have experience working with a range of frameworks and libraries. I am a quick learner and a team player, and I am always looking for opportunities to expand my skill set and take on new challenges. I am currently seeking a position as a mobile developer where I can contribute to a dynamic team and make a meaningful impact.",
   email: "sami.hafid.hs@gmail.com",
   location: "Morocco, Casa",
   socials: [
