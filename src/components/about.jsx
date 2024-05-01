@@ -33,8 +33,8 @@ export default function About() {
           <div className="flex flex-col items-center justify-between w-[320px]">
             <p className="text-white text-[24px]">Sami Hafid</p>
             <p className="text-[18px] text-center text-[#858585]">
-              I'm Sami Hafid, a passionate and experienced Web Developer, coffee
-              lover, art enthusiast based in Casablanca. With over 2 years of
+              I'm Sami Hafid, a passionate and experienced mobile Developer, coffee
+              lover based in Casablanca. With over 2 years of
               expertise in the field, I have dedicated myself to creating
               exceptional user experiences that blend functionality and
               aesthetics seamlessly.
