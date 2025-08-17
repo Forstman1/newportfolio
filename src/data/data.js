@@ -134,7 +134,8 @@ export const educationInfo = [
   {
     title: "University Hassan 2",
     date: "2019 - 2021",
-    description: "I studied Economie  at University Hassan 2 in Morocco for 2 years. I learned a lot about economics and finance, and I developed a strong foundation in these subjects",
+    description:
+      "I studied Economie  at University Hassan 2 in Morocco for 2 years. I learned a lot about economics and finance, and I developed a strong foundation in these subjects",
   },
   {
     title: "High School",
@@ -146,15 +147,29 @@ export const educationInfo = [
 
 export const workInfo = [
   {
-    title: "Mobile Developer Intern",
+    logo: "src/assets/agenz.png",
+    title: "Mobile Developer",
     company: "Agenz",
-    date: "2024 - Present",
+    startDate: "Mars 2024",
+    endDate: null,
     description:
-      "I am currently working as an intern mobile developer at Agenz, a leading software development company. I am responsible for developing and maintaining mobile applications using react native and other technologies.",
+      "Contributed as part of a cross-functional team to the development and enhancement of Agenz’s mobile applications using React Native. Implemented new features, optimized UI/UX for better user engagement, and ensured seamless functionality across platforms. Actively participated in code reviews, Agile sprints, and integration of APIs to deliver scalable, high-quality solutions.",
   },
   {
+    logo: "src/assets/agenz.png",
+    title: "Mobile Developer Intern",
+    company: "Agenz",
+    startDate: "Jan 2024",
+    endDate: "Apr 2024",
+    description:
+      "Collaborated with the development team to build and maintain cross-platform mobile applications for real estate services using React Native. Assisted in implementing new features, debugging issues, and improving app performance for both iOS and Android. Gained practical experience with Agile workflows, Git-based collaboration, and best practices for mobile-first design.",
+  },
+  {
+    logo: null,
     title: "Freelance Work",
-    date: "2023 - 2024",
+    // date: "2023 - 2024",
+    startDate: "Dec 2023",
+    endDate: "Jan 2024",
     description:
       "I have worked as a freelance developer on a variety of projects. I have experience working with clients to develop custom solutions and deliver high-quality code.",
   },

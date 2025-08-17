@@ -3,7 +3,7 @@ import { skills, educationInfo, workInfo } from "../data/data";
 import { useState } from "react";
 
 export default function Experience() {
-  const [selected, setSelected] = useState("Education");
+  const [selected, setSelected] = useState("Work");
   return (
     <div className="w-full  flex flex-col justify-between gap-4 p-[50px] px-0  items-center h-full">
       <Icons.tools className="w-[48px] h-[48px] " />
@@ -68,15 +68,31 @@ export default function Experience() {
           workInfo.map((work, index) => (
             <div
               key={index}
-              className="p-4 px-10 w-[90%] md:w-[400px] bg-quaternary flex  gap-5 items-start justify-start  rounded-2xl"
+              className="p-4 px-10  md:w-[400px] bg-quaternary flex  gap-4 items-start justify-start  rounded-2xl"
             >
-              <div className="h-full">
-                <Icons.work className="w-[48px] h-[48px] text-[#525252] " />
+              <div className="h-full w-full">
+                {work?.logo ? (
+                  <img
+                    src={work.logo}
+                    alt="logo"
+                    className="w-[200px] h-[38px] text-[#525252] "
+                  />
+                ) : (
+                  <Icons.work className="w-[48px] h-[48px] text-[#525252] " />
+                )}
               </div>
               <div className="flex flex-col gap-2">
                 <p className="text-[20px] text-white">{work.title}</p>
                 <p className="text-[14px] text-white ">{work.description}</p>
-                <p className="text-[14px]  text-[#525252] ">{work.date}</p>
+                {work.startDate && work.endDate ? (
+                  <p className="text-[14px]  text-[#525252] ">
+                    {work.startDate} - {work.endDate}
+                  </p>
+                ) :  (
+                  <p className="text-[14px]  text-[#525252] ">
+                    {work.startDate} - Present
+                  </p>
+                )}
               </div>
             </div>
           ))}
