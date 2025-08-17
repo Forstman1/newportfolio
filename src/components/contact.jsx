@@ -9,6 +9,10 @@ export default function Contact() {
 
   const handleSubmit = (e) => {
     e.preventDefault();
+    if (name === "" || email === "" || message === "") {
+      alert("Please fill in all fields");
+      return;
+    }
     console.log(name, email, message);
     const formData = {
       name,

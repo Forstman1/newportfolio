@@ -1,7 +1,9 @@
 import { Icons } from "./icons";
 import { skills, educationInfo, workInfo } from "../data/data";
 import { useState } from "react";
+import agenzLogo from "../assets/agenz.png";
 
+// const agenzLogo = require("src/assets/agenz.png");
 export default function Experience() {
   const [selected, setSelected] = useState("Work");
   return (
@@ -72,10 +74,15 @@ export default function Experience() {
             >
               <div className="h-full w-full">
                 {work?.logo ? (
+                  // <img
+                  //   src={work.logo}
+                  //   alt="logo"
+                  //   className="w-[40px] h-[40px] text-[#525252] "
+                  // />
                   <img
-                    src={work.logo}
+                    src={agenzLogo}
                     alt="logo"
-                    className="w-[200px] h-[38px] text-[#525252] "
+                    className="w-[40px] h-[40px] text-[#525252] "
                   />
                 ) : (
                   <Icons.work className="w-[48px] h-[48px] text-[#525252] " />
@@ -88,7 +95,7 @@ export default function Experience() {
                   <p className="text-[14px]  text-[#525252] ">
                     {work.startDate} - {work.endDate}
                   </p>
-                ) :  (
+                ) : (
                   <p className="text-[14px]  text-[#525252] ">
                     {work.startDate} - Present
                   </p>
