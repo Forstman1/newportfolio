@@ -4,9 +4,31 @@ import inception from "../assets/inception.webp";
 import minishell from "../assets/minishell.jpg";
 import webserv from "../assets/webserv.jpeg";
 import containers from "../assets/containers.png";
+import agenzApp from "../assets/agenzapp.png";
+import agenzPro from "../assets/agenzpro.png";
 import { Icons } from "../components/icons";
 
 export const projects = [
+  {
+    title: "AGENZ APP",
+    tags: ["React Native", "TypeScript", "React Navigation"],
+    description:
+      "Agenz is a leading real estate platform in Morocco that provides users with tools to search, evaluate, and manage property listings with accuracy and ease. The app helps buyers, sellers, and agents make informed decisions by combining real-time market data, advanced search filters, and interactive maps. Users can browse thousands of properties, estimate property values, and connect directly with agents, all through a seamless and mobile-first experience.",
+    image: agenzApp,
+    playstore:
+      "https://play.google.com/store/apps/details?id=com.agenz.agenzapp&hl=en",
+    appstore: "https://apps.apple.com/us/app/agenz/id1671426822",
+  },
+  {
+    title: "AGENZ PRO",
+    tags: ["React Native", "TypeScript", "React Navigation"],
+    description:
+      "Agenz Pro is a specialized mobile application designed for real estate professionals in Morocco. It provides agents, brokers, and agencies with advanced tools to manage property listings, monitor market trends, and connect with potential clients in real time. The app simplifies daily workflows by offering property valuation, client management features, and analytics dashboards, all within an intuitive cross-platform experience.",
+    image: agenzPro,
+    playstore:
+      "https://play.google.com/store/apps/details?id=com.fl.agenz&hl=en",
+    appstore: "https://apps.apple.com/us/app/agenz-pro/id1669720816",
+  },
   {
     title: "PING PONG GAME",
     tags: ["Mongo", "NestJs", "NextJs", "Node"],
@@ -14,14 +36,6 @@ export const projects = [
       "This is a ping pong game that I made with my friends. It's a simple game that you can play with your friends. ",
     image: transcendance,
     link: "https://github.com/Forstman1/ft_transcendence",
-  },
-  {
-    title: "SOHUBE",
-    tags: ["Mongo", "NestJs", "ReactJs", "Node"],
-    description:
-      "this is a social media app that I made. It is a simple social media app that you can share your thoughts with your friends.",
-    image: sohube,
-    link: "https://github.com",
   },
   {
     title: "Inception",
@@ -44,28 +58,28 @@ export const projects = [
     image: containers,
     link: "https://github.com/Forstman1/FT_containers",
   },
-  {
-    title: "Minishell",
-    description:
-      "This project is about creating a simple shell. yes, my own little bash.",
-    image: minishell,
-    link: "https://github.com/Forstman1/Minishell",
-  },
-  {
-    title: "Philosophers",
-    description:
-      "This project aims to broaden knowledge of threading a process. learn how to create thread and discovring mutexes in C",
-    image:
-      "https://www.thecrazyprogrammer.com/wp-content/uploads/2017/06/Dining-Philosophers-Problem.png",
-    link: "https://github.com/Forstman1/Philosophers-42",
-  },
-  {
-    title: "Cub3d",
-    description:
-      "This project is inspired by the world-famous wolfenstein 3d game, wish was first FPS ever, it enable to explore ray-casting world.",
-    image: "https://www.gamereactor.fr/media/59/_3865963.png",
-    link: "https://github.com/Forstman1/cub3D_42",
-  },
+  // {
+  //   title: "Minishell",
+  //   description:
+  //     "This project is about creating a simple shell. yes, my own little bash.",
+  //   image: minishell,
+  //   link: "https://github.com/Forstman1/Minishell",
+  // },
+  // {
+  //   title: "Philosophers",
+  //   description:
+  //     "This project aims to broaden knowledge of threading a process. learn how to create thread and discovring mutexes in C",
+  //   image:
+  //     "https://www.thecrazyprogrammer.com/wp-content/uploads/2017/06/Dining-Philosophers-Problem.png",
+  //   link: "https://github.com/Forstman1/Philosophers-42",
+  // },
+  // {
+  //   title: "Cub3d",
+  //   description:
+  //     "This project is inspired by the world-famous wolfenstein 3d game, wish was first FPS ever, it enable to explore ray-casting world.",
+  //   image: "https://www.gamereactor.fr/media/59/_3865963.png",
+  //   link: "https://github.com/Forstman1/cub3D_42",
+  // },
 ];
 
 export const skills = [
@@ -106,7 +120,7 @@ export const info = {
   location: "Morocco, Casa",
   socials: [
     {
-      link: "https://x.com",
+      link: "https://x.com/samihafid7",
       icon: Icons.twitter,
     },
     {
@@ -139,7 +153,7 @@ export const educationInfo = [
   },
   {
     title: "High School",
-    date: "2016 - 2019",
+    date: "2019",
     description:
       "I completed my high school education at a local high school in Morocco. I studied a range of subjects and developed a strong foundation in mathematics and science.",
   },
@@ -167,7 +181,6 @@ export const workInfo = [
   {
     logo: null,
     title: "Freelance Work",
-    // date: "2023 - 2024",
     startDate: "Dec 2023",
     endDate: "Jan 2024",
     description:
