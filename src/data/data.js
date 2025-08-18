@@ -122,18 +122,22 @@ export const info = {
     {
       link: "https://x.com/samihafid7",
       icon: Icons.twitter,
+      name: "Twitter",
     },
     {
       link: "https://instagram.com/sami._.hafid",
       icon: Icons.instagram,
+      name: "Instagram",
     },
     {
       link: "https://www.github.com/Forstman1",
       icon: Icons.github,
+      name: "Github",
     },
     {
       link: "https://www.linkedin.com/in/sami-hafid-b551a3195/",
       icon: Icons.linkedin,
+      name: "LinkedIn",
     },
   ],
 };

@@ -58,7 +58,7 @@ export default function Card({
           <Image
             src={image}
             alt="Segun Adebayo"
-            className="w-full h-full rounded-lg"
+            className="w-full h-[95%] rounded-lg"
           />
         </div>
       </div>
