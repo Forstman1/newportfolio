@@ -22,8 +22,8 @@ export default function Contact() {
     setIsSubmitting(true);
     console.log(name, email, message);
     const formData = {
-      name,
-      email,
+      from_name: name,
+      user_email: email,
       message,
     };
 
